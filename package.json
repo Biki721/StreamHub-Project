@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Stream hub is a dynamic video hosting platform like youtube",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -12,5 +13,8 @@
     "mongoose"
   ],
   "author": "Biki Dey",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
