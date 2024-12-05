@@ -4,6 +4,8 @@ const asyncHandler = (fn) => (req, res, next) => {
   });
 };
 
+export { asyncHandler };
+
 // Alternate ways
 
 // using arrow function
